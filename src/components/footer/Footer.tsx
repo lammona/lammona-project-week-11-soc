@@ -1,8 +1,12 @@
+import styles from './Footer.module.css';
+
 interface FooterProps {
     footerTitle: string;
 }
 export function Footer({footerTitle}: FooterProps) {
     return (
-        <p>{footerTitle}</p>
+        <footer className={styles.footer}> 
+        <p className={styles.footerTitle}>{footerTitle}</p>
+        </footer>
     )
 }

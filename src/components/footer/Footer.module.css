@@ -1,0 +1,14 @@
+.footer {
+    background-color: #1a1f2c;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #00ff00;
+    margin-top: auto;
+  }
+  
+  .footerTitle {
+    color: #00ff00;
+    font-size: 1rem;
+  }
+  
+  
