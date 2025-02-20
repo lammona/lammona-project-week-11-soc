@@ -2,9 +2,9 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
-import  { Header }  from './Components/Header/Header'
-import  { Footer }  from './Components/Footer/Footer'
-import { Flashcards } from './Components/Flashcards/Flashcards'
+import  { Header }  from './components/header/header'
+import  { Footer }  from './components/footer/footer'
+import { Flashcards } from './components/flashcards/flashcards'
 
 
 function App() {
