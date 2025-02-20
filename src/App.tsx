@@ -1,7 +1,8 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
-import './App.css'
+
+import styles from './App.module.css'
 import  { Header }  from './components/header/Header'
 import  { Footer }  from './components/footer/Footer'
 import { Flashcards } from './components/flashcards/Flashcards'
@@ -18,7 +19,7 @@ const cardsData = [
 ];
   return (
     <>
-    <div>
+    <div className={styles.container}>
       <Header title="Welcome to my Project ❤️"/>
       <Flashcards cards={cardsData}/>
       <Footer footerTitle='This is a footer of the page!'/>

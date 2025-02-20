@@ -1,4 +1,6 @@
+
 import { Card } from "./card/Card";
+import styles from './Flashcards.module.css';
 
 interface FlashcardsProps{
     cards: {topic: string, description: string}[]
@@ -6,7 +8,7 @@ interface FlashcardsProps{
 
 export function Flashcards({cards}:FlashcardsProps){
     return (
-        <div>
+        <div className={styles.container}>
             {cards.map((card, index) => (
             <Card
             key={index}
@@ -17,4 +19,3 @@ export function Flashcards({cards}:FlashcardsProps){
         </div>
     )
 }
-

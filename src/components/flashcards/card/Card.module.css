@@ -1,0 +1,25 @@
+  
+  .card {
+    background-color: #1a1f2c;
+    border: 2px solid #00ff00;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px #00ff00;
+  }
+  
+  .topic {
+    color: #00ff00;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    color: #ffffff;
+  }
