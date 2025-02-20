@@ -1,9 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import { useState } from 'react'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 import './App.css'
 import { Header } from './Components/Header/Header'
-import { Footer } from './components/footer/footer'
+import { Footer } from './Components/Footer/Footer'
 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
   return (
     <>
     <div>
-      <Header/>
+      <Header title="Welcome to my Project ❤️"/>
       <Footer/>
       </div>
     
