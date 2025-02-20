@@ -13,7 +13,7 @@ function App() {
     <>
     <div>
       <Header title="Welcome to my Project ❤️"/>
-      <Footer/>
+      <Footer footerTitle='This is a footer of the page'/>
       </div>
     
     

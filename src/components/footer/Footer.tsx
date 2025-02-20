@@ -1,5 +1,8 @@
-export function Footer(){
+interface FooterProps {
+    footerTitle: string;
+}
+export function Footer({footerTitle}: FooterProps) {
     return (
-        <p>This is the footer</p>
+        <p>{footerTitle}</p>
     )
 }
