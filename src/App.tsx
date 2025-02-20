@@ -4,15 +4,23 @@
 import './App.css'
 import  { Header }  from './Components/Header/Header'
 import  { Footer }  from './Components/Footer/Footer'
+import { Flashcards } from './Components/Flashcards/Flashcards'
 
 
 function App() {
   //const [count, setCount] = useState(0)
-
+const cardsData = [
+  {topic: "card 1", description: "This is the first card"},
+  {topic: "card 2", description: "This is the second card"},
+  {topic: "card 3", description: "This is the third card"},
+  {topic: "card 4", description: "This is the fourth card"},
+  {topic: "card 5", description: "This is the fifth card"},
+];
   return (
     <>
     <div>
       <Header title="Welcome to my Project ❤️"/>
+      <Flashcards cards={cardsData}/>
       <Footer footerTitle='This is a footer of the page!'/>
       </div>
     
