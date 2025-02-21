@@ -3,7 +3,7 @@ import { Card } from "./card/Card";
 import styles from './Flashcards.module.css';
 
 interface FlashcardsProps{
-    cards: {topic: string, description: string}[]
+    cards: {topic: string, description: string, answer: string}[]
 }
 
 export function Flashcards({cards}:FlashcardsProps){
@@ -14,6 +14,7 @@ export function Flashcards({cards}:FlashcardsProps){
             key={index}
             topic={card.topic}
             description= {card.description}
+            answer={card.answer}
             />
             ))}
         </div>
