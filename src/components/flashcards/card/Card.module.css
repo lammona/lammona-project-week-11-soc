@@ -7,6 +7,7 @@
     width: 250px;
     transition: all 0.3s ease;
     cursor: pointer;
+   
   }
   
   .flipButton{
@@ -22,8 +23,13 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    outline: none;
+   
   }
+    .flipButton:focus {
+        outline: none;
 
+}
   .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 0 15px #00ff00;
