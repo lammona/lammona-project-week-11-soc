@@ -9,6 +9,21 @@
     cursor: pointer;
   }
   
+  .flipButton{
+    color: #ffffff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
   .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 0 15px #00ff00;
@@ -18,6 +33,16 @@
     color: #00ff00;
     font-size: 1.2rem;
     margin-bottom: 10px;
+  }
+
+  .exampleTopic {
+    color: #00ff00;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  .example {
+    color: #ffffff;
   }
   
   .description {
