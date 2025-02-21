@@ -22,7 +22,7 @@ function App() {
   return (
     <>
     <div className={styles.container}>
-      <Header title="Cybersecurity Flashcards 🔐"/>
+      <Header title="Secure Your React App: Top 10 Cybersecurity Tips 🔐"/>
       <Flashcards cards={cardsData}/>
       <Footer footerTitle='Secure your knowledge, secure your future!'/>
       </div>
