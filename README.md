@@ -8,26 +8,15 @@
 
 ## Overview
 
-Why did you build this? What problem does it solve?
-
-Example:
-
-> I created this project to practice Next.js & Firebase authentication while building something useful. The app helps users track expenses, categorize spending, and set savings goals.
-> 
+I built this project to help junior developers (like myself) understand and implement key cybersecurity best practices in React applications. Security is often overlooked at the beginning of the coding journey, and this guide provides actionable steps to protect apps from common vulnerabilities.
 
 ---
 
 ## Tech Stack
 
-**Frontend:** React, Next.js, TypeScript
+**Frontend:** React, JavaScript, Vite, TypeScript
 
-**Backend:** Node.js, Express
-
-**Database:** Firebase Firestore
-
-**Styling:** Tailwind CSS
-
-**Testing:** Jest, Cypress
+**Styling:** CSS
 
 **Deployment:** Vercel
 
@@ -35,13 +24,13 @@ Example:
 
 ## Features
 
-✅ **User authentication** (sign up, login, logout)
+✅ **Top 10 essential cybersecurity tips for React applications**
 
-✅ **Real-time expense tracking** with Firestore
+✅ **Practical explanations and examples for each security measure**
 
-✅ **Category-based spending breakdown**
+✅ **Beginner-friendly guidance to improve application security**
 
-✅ **Dark mode toggle**
+✅ **Easy-to-follow best practices for secure coding**
 
 ---
 
@@ -50,18 +39,17 @@ Example:
 1️⃣ Clone this repo:
 
 ```bash
-bash
-CopyEdit
-git clone https://github.com/your-username/project-name.git
-cd project-name
+
+git clone https://github.com/lammona/lammona-project-week-11-soc.git
+cd lammona-project-week-11-soc
 
 ```
 
 2️⃣ Install dependencies:
 
 ```bash
-bash
-CopyEdit
+
+
 npm install
 
 ```
@@ -69,9 +57,8 @@ npm install
 3️⃣ Run the app locally:
 
 ```bash
-bash
-CopyEdit
-npm run dev
+
+npm start
 
 ```
 
@@ -79,26 +66,25 @@ npm run dev
 
 ## What I Learned
 
-- **Handling authentication with Firebase**
-- **State management using React Context API**
-- **Fetching & displaying real-time data from Firestore**
-- **Improving UI/UX with Tailwind CSS**
+- **Built this project from scratch to practice, solidify my learning, and develop a full-stack app**
+- **Deepened my understanding of fundamental security practices in React**
+- **Applied best practices for handling sensitive information in frontend applications**
+- **Gained hands-on experience in deploying applications and managing hosting environments**
+- **Worked with GitHub Actions to automate workflows and improve project management**
 
 ---
 
 ## Future Improvements
-
-- **Data visualization** (add graphs for expense trends)
-- **Mobile responsiveness improvements**
+- **📝 Add a form allowing users to create and manage their own security tips**
+- **🚀 Add real-world examples and code snippets for each security tip**
+- **🔐 Implement interactive security challenges for hands-on learning**
+- **📖 Expand the guide with advanced cybersecurity topics**
 
 ---
 
 ## 👤 About Me
 
- **[Your Name]** – Junior Software Developer
+ **Monika Lament** – Junior Software Developer
 
-Email
-
-[Your LinkedIn](https://linkedin.com/in/yourprofile)
-
-[Portfolio](https://yourportfolio.com/)
+📧 Email: lament.mon@gmail.com
+🔗 LinkedIn: [/monika-lament](https://www.linkedin.com/in/monika-lament/)
